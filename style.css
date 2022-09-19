@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#logo {
+    height: 50px;
+    width: 130px;
+}
+
+@media screen and (max-width: 480px) {
+    #logo {
+        /* background-color: lightgreen; */
+        height: 30px;
+        width: 100px;
+    }
+    .flex-column {
+        font-size: 1.2rem;
+    }
+}
+
+h6 {
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#4000ff, #ff00ff, #8000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+
+
+}
+
+
+
+#icon_toggle {
+    background: -webkit-linear-gradient(#ff00ff, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#toggle_id,
+#toggle_id2,
+#toggle_id3,
+#toggle_id4 {
+    margin-top: 2.1rem;
+    position: relative;
+    background-color: white;
+    display: none;
+    padding: 35px;
+    border-radius: 1rem;
+    border: 1px solid white;
+
+
+
+}
+
+
+#toggle_id4::before {
+
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: 1.5em;
+    border: .75rem solid transparent;
+    border-top: none;
+    border-bottom-color: white;
+
+}
+
+#toggle_id3::before {
+
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: 1.5em;
+    border: .75rem solid transparent;
+    border-top: none;
+    border-bottom-color: white;
+
+}
+
+#toggle_id::before {
+
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: 1.5em;
+    border: .75rem solid transparent;
+    border-top: none;
+    border-bottom-color: white;
+
+}
+
+#toggle_id2::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: 1.5em;
+    border: .75rem solid transparent;
+    border-top: none;
+    border-bottom-color: white;
+
+}
+
+.dNone {
+    display: block;
+
+
+}
+
+.text {
+    color: gray;
+    text-transform: capitalize;
+    font-size: .9rem;
+}
+
+
+#What_toggle {
+    transition: 0.5s all ease-in-out;
+}
+
+#What_toggle:hover {
+
+    transform: scale(1.1);
+}
+#offer3:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+
+}
+#offer2:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+#offer1:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+#offer1,#offer2,#offer3{
+    box-shadow: 2px 3px 5px #888888;
+    
+    overflow: hidden;
+}
+.mainicon1 {
+    display: none;
+}
+
+
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#cut {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 0;
+    border: none;
+    border-radius: 50%;
+}
+
+#search_lang {
+    height: 50px;
+}
+
+#lang_area {
+    padding: 20px;
+}
+
+#lang_list {
+    cursor: pointer;
+
+    padding: 5px;
+}
+
+#choose_language {
+    display: none;
+    /* overflow: hidden; */
+    /* scroll-behavior: smooth; */
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    left: 0;
+    background-color: rgb(254, 250, 250);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+#clrli {
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#4000ff, #ff00ff, #8000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+
+
+}
+
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#hover_Drop,
+#hover_Drop2,
+#hover_Drop3 {
+    display: none;
+    width: 100%;
+}
+
+
+
+
+#upper_menu {
+    background-color: #CAD5E2;
+    padding-top: 70px;
+     width: 100%;
+     /* height: 70vh; */
+     padding: 10px 0 30px 0;
+   
+ }
+ 
+
+
+
+
+#clockdiv{ 
+   font-family: sans-serif; 
+   color: black; 
+   display: inline-block; 
+   
+   text-align: center; 
+   font-size: 30px; 
+} 
+#clockdiv > div{ 
+   /* padding: 10px;  */
+   border-radius: 3px; 
+   background: white; 
+   display: inline-block; 
+   height: auto;
+   width: auto;
+   /* border: 2px solid black; */
+} 
+#clockdiv div > span{ 
+   /* padding: 15px;  */
+   border-radius: 3px; 
+   /* background: black;  */
+   display: inline-block; 
+} 
+.smalltext{ 
+   padding-top: 5px; 
+   font-size: 16px; 
+   color: black;
+   /* background-color: ; */
+} 
+
